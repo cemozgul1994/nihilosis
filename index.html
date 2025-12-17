@@ -2,23 +2,35 @@
 <html lang="tr">
 <head>
     <meta charset="UTF-8">
-    <title>Görsel Sayfası</title>
+    <title>Nihilosis Görseli</title>
     <style>
-        .responsive-img {
-            max-width: 100%; /* Sayfa dışına taşmaz */
-            height: auto;    /* Oranları korur */
-            display: block;
-            margin: 20px auto; /* Ortalar */
-            border: 1px solid #ddd;
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f0f0f0;
+            margin: 0;
+        }
+        .container {
+            text-align: center;
+            padding: 20px;
+            background: white;
             border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 4px;
         }
     </style>
 </head>
 <body>
 
-    <h2 style="text-align: center;">Eklenen Görsel</h2>
-    
-    <img src="image.png" alt="image.png görseli" class="responsive-img">
+    <div class="container">
+        <img src="nihilosis.png" alt="Nihilosis Görseli">
+    </div>
 
 </body>
 </html>
